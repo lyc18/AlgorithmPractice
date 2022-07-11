@@ -30,6 +30,10 @@ def fibonacciTailRecursive(n,ret1,ret2):
     return fibonacciTailRecursive(n-1,ret2,ret1+ret2)
 
 def test():
+    '''
+    测试
+    :return:
+    '''
     start_time = time.time()
     print(fibonacciRecursive(30))
     end_time = time.time()

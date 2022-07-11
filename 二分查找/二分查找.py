@@ -31,6 +31,10 @@ def binary_search(arr,item):
     return None
 
 def test():
+    '''
+    测试二分查找
+    :return: None
+    '''
     arr = [i for i in range(10)]
     print("查找中间值：", binary_search(arr, 4))
     print("查找末项：", binary_search(arr, 9))

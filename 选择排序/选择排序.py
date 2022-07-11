@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author  : ycli
-# @Time    : 2022-07-10
+# @Time    : 2022/7/10 10:12
 # @File    : 选择排序.py
-# @annotation    :
+# @annotation    : 升序选择排序
 
 import random
 

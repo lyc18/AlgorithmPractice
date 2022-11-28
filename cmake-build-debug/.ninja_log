@@ -1,0 +1,6 @@
+# ninja log v5
+2	240	6913104640089439	CMakeFiles/AlgorithmPractice.dir/算法导论/src/01_算法基础/插入排序.cpp.obj	f4395acaaaf9ecd
+33	100	6913111641366637	AlgorithmPractice.exe	7189d3a2c0df8f1
+2	38	6913111896587623	CMakeFiles/AlgorithmPractice.dir/算法导论/src/01_算法基础/选择排序.cpp.obj	b1135f91bed6b114
+0	104	6913112095591194	build.ninja	745fa46ef066bbfa
+0	62	6913112096658349	AlgorithmPractice.exe	153ceb08ccdf1b21

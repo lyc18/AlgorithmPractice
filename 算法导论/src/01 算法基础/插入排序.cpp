@@ -51,6 +51,11 @@ void InsertionSortDescending(int* array, int array_len){
     }
 }
 
+/**
+ * 输出数组
+ * @param array 需要输出的数组
+ * @param array_len 数组长度
+ */
 void PrintArray(int* array, int array_len)
 {
     for(int i = 0; i < array_len; ++i)

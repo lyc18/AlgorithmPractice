@@ -40,7 +40,7 @@ void InsertionSortDescending(int* array, int array_len){
 
         // 将在key前面且比key大的元素向后移动
         // 直到遇到一个大于等于key的元素
-        while (insert_index >= 0 && array[insert_index] < key)
+        while (insert_index >= 0 && array[insert_index] < key)  // 注意点:可在查找的同时后移元素
         {
             array[insert_index + 1] = array[insert_index];
             insert_index--;

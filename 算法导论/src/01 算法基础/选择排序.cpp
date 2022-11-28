@@ -29,7 +29,7 @@ void SelectSortAscending(int* array, int array_len) {
  */
 void SelectSortDescending(int* array, int array_len) {
     // 选择排序前n-1个元素
-    for (int i = 0; i < array_len - 1; ++i) {
+    for (int i = 0; i < array_len - 1; ++i) { // 注意点: 只需要排序前n-1个元素就可以了
         // 找到未排序部分最大元素
         int max_index = i;
         for (int j = i + 1; j < array_len; ++j) {

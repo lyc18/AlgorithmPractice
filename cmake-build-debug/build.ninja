@@ -49,11 +49,11 @@ cmake_ninja_workdir = D$:/code/python/AlgorithmPractice/cmake-build-debug/
 
 build cmake_object_order_depends_target_AlgorithmPractice: phony || CMakeFiles/AlgorithmPractice.dir
 
-build CMakeFiles/AlgorithmPractice.dir/算法导论/src/01_算法基础/归并排序.cpp.obj: CXX_COMPILER__AlgorithmPractice_Debug D$:/code/python/AlgorithmPractice/算法导论/src/01$ 算法基础/归并排序.cpp || cmake_object_order_depends_target_AlgorithmPractice
-  DEP_FILE = CMakeFiles\AlgorithmPractice.dir\算法导论\src\01_算法基础\归并排序.cpp.obj.d
+build CMakeFiles/AlgorithmPractice.dir/算法导论/src/02_分治策略/最大子数组.cpp.obj: CXX_COMPILER__AlgorithmPractice_Debug D$:/code/python/AlgorithmPractice/算法导论/src/02$ 分治策略/最大子数组.cpp || cmake_object_order_depends_target_AlgorithmPractice
+  DEP_FILE = CMakeFiles\AlgorithmPractice.dir\算法导论\src\02_分治策略\最大子数组.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\AlgorithmPractice.dir
-  OBJECT_FILE_DIR = CMakeFiles\AlgorithmPractice.dir\算法导论\src\01_算法基础
+  OBJECT_FILE_DIR = CMakeFiles\AlgorithmPractice.dir\算法导论\src\02_分治策略
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/AlgorithmPractice.dir/算法导论/src/01_算法基础/归并排序.cpp.obj
 #############################################
 # Link the executable AlgorithmPractice.exe
 
-build AlgorithmPractice.exe: CXX_EXECUTABLE_LINKER__AlgorithmPractice_Debug CMakeFiles/AlgorithmPractice.dir/算法导论/src/01_算法基础/归并排序.cpp.obj
+build AlgorithmPractice.exe: CXX_EXECUTABLE_LINKER__AlgorithmPractice_Debug CMakeFiles/AlgorithmPractice.dir/算法导论/src/02_分治策略/最大子数组.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AlgorithmPractice.dir

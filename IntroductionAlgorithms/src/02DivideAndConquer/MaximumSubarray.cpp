@@ -12,7 +12,7 @@
  */
 std::vector<int> FindMaxCrossingSubarray(int* array, int start_index, int mid_index, int end_index){
     // 定义返回变量
-    std::vector<int> ret(3);
+    std::vector<int> ret;
 
     // 定义变量,记录当前左右两边最大和,以及相应的下标
     int l_sum_max = 0;
@@ -107,24 +107,24 @@ std::vector<int> FindMaximumSubarrayDP(int* array, int array_len){
     int sum = 0;
     int l_tem_index = 0;
     int r_tem_index = 0;
-    for(int i = 1; i < array_len; ++i){
-//        if(sum + array[i] <= array[i]){
-//            sum = array[i];
-//            l_tem_index = i;
-//            r_tem_index = i;
-//        }else{
-//            sum = sum + array[i];
-//            r_tem_index = i;
-//        }
-//
-//        if(sum_max < sum)
-//        {
-//            sum_max = sum;
-//            l_max_index = l_tem_index;
-//            r_max_index = r_tem_index;
-//        }
-sum = sum + array[i] > array[i] ? sum + array[i] : array[i];
-sum_max = sum_max > sum ? sum_max : sum;
+    for(int i = 0; i < array_len; ++i){
+        if(sum + array[i] <= array[i]){
+            sum = array[i];
+            l_tem_index = i;
+            r_tem_index = i;
+        }else{
+            sum = sum + array[i];
+            r_tem_index = i;
+        }
+
+        if(sum_max < sum)
+        {
+            sum_max = sum;
+            l_max_index = l_tem_index;
+            r_max_index = r_tem_index;
+        }
+//sum = sum + array[i] > array[i] ? sum + array[i] : array[i];
+//sum_max = sum_max > sum ? sum_max : sum;
     }
 
     // 合并左右最大子数组
@@ -135,8 +135,8 @@ sum_max = sum_max > sum ? sum_max : sum;
     return ret;
 }
 int main(){
-    int array[] = {12,56,64,16,321,13,46,7,165,49,31,};
-    int array_len = 11;
+    int array[] = {13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7};
+    int array_len = 16;
     std::cout << "原始序列" << std::endl;
     PrintArray(array, array_len);
     std::cout << "分治法找最大子数组" << std::endl;

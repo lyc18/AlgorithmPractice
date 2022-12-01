@@ -3,4 +3,6 @@ project(IntroductionAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(IntroductionAlgorithms main.cpp)
+add_executable(IntroductionAlgorithms
+        utils/iofunction.h
+        src/02DivideAndConquer/MaximumSubarray.cpp)

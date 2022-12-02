@@ -1,0 +1,22 @@
+# ninja log v5
+2	345	6915656926530262	CMakeFiles/IntroductionAlgorithms.dir/src/02DivideAndConquer/MaximumSubarray.cpp.obj	e612979c09fbe0be
+346	421	6915656927268371	IntroductionAlgorithms.exe	4bc9ce3f95ec0218
+1	134	6916902383387839	build.ninja	59d85059fdbf6c59
+0	384	6916902387738928	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+384	540	6916902389275052	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	262	6916903241644708	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+262	328	6916903242283000	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	263	6916905845604097	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+264	331	6916905846262618	IntroductionAlgorithms.exe	6080b80bd924aab1
+1	261	6916907547330714	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+261	327	6916907547969007	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	269	6916913437751853	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+269	345	6916913438499856	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	265	6916915263421732	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+265	331	6916915264060035	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	253	6916918943557429	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+253	330	6916918944305712	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	233	6916919033141765	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+233	299	6916919033780059	IntroductionAlgorithms.exe	6080b80bd924aab1
+2	246	6916923621066374	CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj	2316ffea0ccf57a5
+246	322	6916923621804133	IntroductionAlgorithms.exe	6080b80bd924aab1

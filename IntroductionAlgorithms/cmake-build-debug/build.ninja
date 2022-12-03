@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/code/C/AlgorithmPractice/IntroductionAlgorithms/cmake-
 
 build cmake_object_order_depends_target_IntroductionAlgorithms: phony || CMakeFiles/IntroductionAlgorithms.dir
 
-build CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj: CXX_COMPILER__IntroductionAlgorithms_Debug D$:/code/C/AlgorithmPractice/IntroductionAlgorithms/src/02SortAndOrderStatistics/QuickSort.cpp || cmake_object_order_depends_target_IntroductionAlgorithms
-  DEP_FILE = CMakeFiles\IntroductionAlgorithms.dir\src\02SortAndOrderStatistics\QuickSort.cpp.obj.d
+build CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/HeapSort.cpp.obj: CXX_COMPILER__IntroductionAlgorithms_Debug D$:/code/C/AlgorithmPractice/IntroductionAlgorithms/src/02SortAndOrderStatistics/HeapSort.cpp || cmake_object_order_depends_target_IntroductionAlgorithms
+  DEP_FILE = CMakeFiles\IntroductionAlgorithms.dir\src\02SortAndOrderStatistics\HeapSort.cpp.obj.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles\IntroductionAlgorithms.dir
   OBJECT_FILE_DIR = CMakeFiles\IntroductionAlgorithms.dir\src\02SortAndOrderStatistics
@@ -63,7 +63,7 @@ build CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSo
 #############################################
 # Link the executable IntroductionAlgorithms.exe
 
-build IntroductionAlgorithms.exe: CXX_EXECUTABLE_LINKER__IntroductionAlgorithms_Debug CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/QuickSort.cpp.obj
+build IntroductionAlgorithms.exe: CXX_EXECUTABLE_LINKER__IntroductionAlgorithms_Debug CMakeFiles/IntroductionAlgorithms.dir/src/02SortAndOrderStatistics/HeapSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\IntroductionAlgorithms.dir
